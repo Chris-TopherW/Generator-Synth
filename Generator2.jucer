@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="0nRd9LLGO" name="Generator2" projectType="audioplug" version="1.0.0"
+              juceLinkage="amalg_multi" buildVST="1" buildRTAS="0" buildAU="0"
+              pluginName="Generator2" pluginDesc="Generator2" pluginManufacturer=""
+              pluginManufacturerCode="" pluginCode="Jcdm" pluginChannelConfigs=""
+              pluginIsSynth="1" pluginWantsMidiIn="1" pluginProducesMidiOut="1"
+              pluginSilenceInIsSilenceOut="0" pluginTailLength="0" pluginEditorRequiresKeys="1"
+              pluginAUExportPrefix="JuceDemoProjectAU" pluginAUViewClass="JuceDemoProjectAU_V1"
+              pluginRTASCategory="" bundleIdentifier="com.yourcompany.Generator2"
+              jucerVersion="5.0.2" companyName="Chris Wratt" aaxIdentifier="com.yourcompany.JuceDemoPlugin"
+              buildAAX="0" pluginAAXCategory="AAX_ePlugInCategory_Dynamics"
+              includeBinaryInAppConfig="1" buildVST3="0" pluginManufacturerEmail="support@yourcompany.com"
+              companyWebsite="" companyEmail="" pluginIsMidiEffectPlugin="0"
+              buildAUv3="0" buildStandalone="0" enableIAA="0" displaySplashScreen="1"
+              reportAppUsage="1" splashScreenColour="Dark">
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" vstFolder="" rtasFolder="~/SDKs/PT_80_SDK"
+               objCExtraSuffix="JuceDemo" aaxFolder="" postbuildCommand="" vst3Folder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="JuceDemoPlugin"
+                       osxSDK="default" osxCompatibility="default" osxArchitecture="64BitUniversal"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="JuceDemoPlugin"
+                       osxSDK="default" osxCompatibility="default" osxArchitecture="64BitUniversal"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_extra" path="/Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="/Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="/Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="/Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="/Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="/Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="/Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="/Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="/Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="/Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="/Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="/Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="JuceDemoPlugin"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="JuceDemoPlugin"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_extra" path="C:\Program Files (x86)\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\Program Files (x86)\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\Program Files (x86)\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="C:\Program Files (x86)\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\Program Files (x86)\JUCE\modules"/>
+        <MODULEPATH id="juce_core" path="C:\Program Files (x86)\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:\Program Files (x86)\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\Program Files (x86)\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:\Program Files (x86)\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\Program Files (x86)\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:\Program Files (x86)\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_basics" path="C:\Program Files (x86)\JUCE\modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MAINGROUP id="dYAMo6Ykd" name="Generator2">
+    <FILE id="Y1CF25" name="Synth.cpp" compile="1" resource="0" file="Source/Synth.cpp"/>
+    <FILE id="wsq7yN" name="Synth.h" compile="0" resource="0" file="Source/Synth.h"/>
+    <FILE id="ztmxDc" name="CustomLookAndFeel.cpp" compile="1" resource="0"
+          file="Source/CustomLookAndFeel.cpp"/>
+    <FILE id="I1YLNm" name="Definitions.h" compile="0" resource="0" file="Source/Definitions.h"/>
+    <FILE id="RCFlkTAef" name="PluginEditor.cpp" compile="1" resource="0"
+          file="Source/PluginEditor.cpp"/>
+    <FILE id="Iif5nfHL" name="PluginEditor.h" compile="0" resource="0"
+          file="Source/PluginEditor.h"/>
+    <FILE id="gFFr0hbSp" name="PluginProcessor.cpp" compile="1" resource="0"
+          file="Source/PluginProcessor.cpp"/>
+    <FILE id="PkpMNdnIr" name="PluginProcessor.h" compile="0" resource="0"
+          file="Source/PluginProcessor.h"/>
+    <FILE id="m8uAfh" name="WrattDelay.cpp" compile="1" resource="0" file="Source/WrattDelay.cpp"/>
+    <FILE id="jpxDuD" name="WrattDelay.h" compile="0" resource="0" file="Source/WrattDelay.h"/>
+    <GROUP id="{DF5AA11D-7BE5-D395-77CA-2F0768A7C245}" name="STK">
+      <FILE id="ChMEkm" name="ADSR.cpp" compile="1" resource="0" file="Source/STK/ADSR.cpp"/>
+      <FILE id="ndpMgn" name="ADSR.h" compile="0" resource="0" file="Source/STK/ADSR.h"/>
+      <FILE id="copUup" name="BiQuad.cpp" compile="1" resource="0" file="Source/STK/BiQuad.cpp"/>
+      <FILE id="a8AAcj" name="BiQuad.h" compile="0" resource="0" file="Source/STK/BiQuad.h"/>
+      <FILE id="xRu3DP" name="Blit.cpp" compile="1" resource="0" file="Source/STK/Blit.cpp"/>
+      <FILE id="XFRZHz" name="Blit.h" compile="0" resource="0" file="Source/STK/Blit.h"/>
+      <FILE id="iONik2" name="BlitSaw.cpp" compile="1" resource="0" file="Source/STK/BlitSaw.cpp"/>
+      <FILE id="EM1kzM" name="BlitSaw.h" compile="0" resource="0" file="Source/STK/BlitSaw.h"/>
+      <FILE id="Hyxz0G" name="BlitSquare.cpp" compile="1" resource="0" file="Source/STK/BlitSquare.cpp"/>
+      <FILE id="Azyg20" name="BlitSquare.h" compile="0" resource="0" file="Source/STK/BlitSquare.h"/>
+      <FILE id="oyzczt" name="Chorus.cpp" compile="1" resource="0" file="Source/STK/Chorus.cpp"/>
+      <FILE id="nG75Te" name="Chorus.h" compile="0" resource="0" file="Source/STK/Chorus.h"/>
+      <FILE id="ZRM5MP" name="Delay.cpp" compile="1" resource="0" file="Source/STK/Delay.cpp"/>
+      <FILE id="Mk4apc" name="Delay.h" compile="0" resource="0" file="Source/STK/Delay.h"/>
+      <FILE id="NUkAnD" name="DelayA.cpp" compile="1" resource="0" file="Source/STK/DelayA.cpp"/>
+      <FILE id="xttx8p" name="DelayA.h" compile="0" resource="0" file="Source/STK/DelayA.h"/>
+      <FILE id="JknKMr" name="DelayL.cpp" compile="1" resource="0" file="Source/STK/DelayL.cpp"/>
+      <FILE id="jBhckJ" name="DelayL.h" compile="0" resource="0" file="Source/STK/DelayL.h"/>
+      <FILE id="sxyN6O" name="Echo.cpp" compile="1" resource="0" file="Source/STK/Echo.cpp"/>
+      <FILE id="EAzL9G" name="Echo.h" compile="0" resource="0" file="Source/STK/Echo.h"/>
+      <FILE id="bf4oJb" name="Effect.h" compile="0" resource="0" file="Source/STK/Effect.h"/>
+      <FILE id="dIL9bX" name="Envelope.cpp" compile="1" resource="0" file="Source/STK/Envelope.cpp"/>
+      <FILE id="nKgdJ2" name="Envelope.h" compile="0" resource="0" file="Source/STK/Envelope.h"/>
+      <FILE id="UdIU1I" name="Filter.h" compile="0" resource="0" file="Source/STK/Filter.h"/>
+      <FILE id="PHf7ZE" name="Fir.cpp" compile="1" resource="0" file="Source/STK/Fir.cpp"/>
+      <FILE id="QMx1bR" name="Fir.h" compile="0" resource="0" file="Source/STK/Fir.h"/>
+      <FILE id="ww5lch" name="FreeVerb.cpp" compile="1" resource="0" file="Source/STK/FreeVerb.cpp"/>
+      <FILE id="rVq0hM" name="FreeVerb.h" compile="0" resource="0" file="Source/STK/FreeVerb.h"/>
+      <FILE id="ARCkaq" name="Generator.h" compile="0" resource="0" file="Source/STK/Generator.h"/>
+      <FILE id="texoO6" name="Iir.cpp" compile="1" resource="0" file="Source/STK/Iir.cpp"/>
+      <FILE id="hZsHfk" name="Iir.h" compile="0" resource="0" file="Source/STK/Iir.h"/>
+      <FILE id="XxQpeF" name="JCRev.cpp" compile="1" resource="0" file="Source/STK/JCRev.cpp"/>
+      <FILE id="yb0sGE" name="JCRev.h" compile="0" resource="0" file="Source/STK/JCRev.h"/>
+      <FILE id="dapHTM" name="Modulate.cpp" compile="1" resource="0" file="Source/STK/Modulate.cpp"/>
+      <FILE id="qC1Eq6" name="Modulate.h" compile="0" resource="0" file="Source/STK/Modulate.h"/>
+      <FILE id="I1WlnY" name="Noise.cpp" compile="1" resource="0" file="Source/STK/Noise.cpp"/>
+      <FILE id="hAHxsS" name="Noise.h" compile="0" resource="0" file="Source/STK/Noise.h"/>
+      <FILE id="mZT8cg" name="NRev.cpp" compile="1" resource="0" file="Source/STK/NRev.cpp"/>
+      <FILE id="XgqJTo" name="NRev.h" compile="0" resource="0" file="Source/STK/NRev.h"/>
+      <FILE id="MwgkR0" name="OnePole.cpp" compile="1" resource="0" file="Source/STK/OnePole.cpp"/>
+      <FILE id="fxPd90" name="OnePole.h" compile="0" resource="0" file="Source/STK/OnePole.h"/>
+      <FILE id="g3D2Jb" name="OneZero.cpp" compile="1" resource="0" file="Source/STK/OneZero.cpp"/>
+      <FILE id="Mts4tE" name="OneZero.h" compile="0" resource="0" file="Source/STK/OneZero.h"/>
+      <FILE id="e0H4Nr" name="PoleZero.cpp" compile="1" resource="0" file="Source/STK/PoleZero.cpp"/>
+      <FILE id="lpMcg4" name="PoleZero.h" compile="0" resource="0" file="Source/STK/PoleZero.h"/>
+      <FILE id="wRPc5t" name="PRCRev.cpp" compile="1" resource="0" file="Source/STK/PRCRev.cpp"/>
+      <FILE id="Xb1DP7" name="PRCRev.h" compile="0" resource="0" file="Source/STK/PRCRev.h"/>
+      <FILE id="n5U3vH" name="SineWave.cpp" compile="1" resource="0" file="Source/STK/SineWave.cpp"/>
+      <FILE id="s5xGpj" name="SineWave.h" compile="0" resource="0" file="Source/STK/SineWave.h"/>
+      <FILE id="YfiNiG" name="Stk.cpp" compile="1" resource="0" file="Source/STK/Stk.cpp"/>
+      <FILE id="zdy5je" name="Stk.h" compile="0" resource="0" file="Source/STK/Stk.h"/>
+      <FILE id="zyJHer" name="TapDelay.cpp" compile="1" resource="0" file="Source/STK/TapDelay.cpp"/>
+      <FILE id="GoXkdj" name="TapDelay.h" compile="0" resource="0" file="Source/STK/TapDelay.h"/>
+      <FILE id="vqz5oY" name="TwoPole.cpp" compile="1" resource="0" file="Source/STK/TwoPole.cpp"/>
+      <FILE id="RhAfi7" name="TwoPole.h" compile="0" resource="0" file="Source/STK/TwoPole.h"/>
+      <FILE id="bBj9Pn" name="TwoZero.cpp" compile="1" resource="0" file="Source/STK/TwoZero.cpp"/>
+      <FILE id="BKyImi" name="TwoZero.h" compile="0" resource="0" file="Source/STK/TwoZero.h"/>
+    </GROUP>
+    <GROUP id="{EFC8F7ED-4A83-FE64-2709-C92D89F34751}" name="DSPFilters">
+      <FILE id="edAZBY" name="Bessel.cpp" compile="1" resource="0" file="Source/DSPFilters/Bessel.cpp"/>
+      <FILE id="nyXGtu" name="Bessel.h" compile="0" resource="0" file="Source/DSPFilters/Bessel.h"/>
+      <FILE id="CiPNEc" name="Biquad.cpp" compile="1" resource="0" file="Source/DSPFilters/Biquad.cpp"/>
+      <FILE id="o4b0cg" name="Biquad.h" compile="0" resource="0" file="Source/DSPFilters/Biquad.h"/>
+      <FILE id="nVuDwf" name="Butterworth.cpp" compile="1" resource="0" file="Source/DSPFilters/Butterworth.cpp"/>
+      <FILE id="iz8yc9" name="Butterworth.h" compile="0" resource="0" file="Source/DSPFilters/Butterworth.h"/>
+      <FILE id="RZToGc" name="Cascade.cpp" compile="1" resource="0" file="Source/DSPFilters/Cascade.cpp"/>
+      <FILE id="o1TDsO" name="Cascade.h" compile="0" resource="0" file="Source/DSPFilters/Cascade.h"/>
+      <FILE id="Kiahtb" name="ChebyshevI.cpp" compile="1" resource="0" file="Source/DSPFilters/ChebyshevI.cpp"/>
+      <FILE id="PYYIKw" name="ChebyshevI.h" compile="0" resource="0" file="Source/DSPFilters/ChebyshevI.h"/>
+      <FILE id="AJtsBX" name="ChebyshevII.cpp" compile="1" resource="0" file="Source/DSPFilters/ChebyshevII.cpp"/>
+      <FILE id="JVVknV" name="ChebyshevII.h" compile="0" resource="0" file="Source/DSPFilters/ChebyshevII.h"/>
+      <FILE id="ZSNfXl" name="Common.h" compile="0" resource="0" file="Source/DSPFilters/Common.h"/>
+      <FILE id="I7LLRG" name="Custom.cpp" compile="1" resource="0" file="Source/DSPFilters/Custom.cpp"/>
+      <FILE id="J45uFv" name="Custom.h" compile="0" resource="0" file="Source/DSPFilters/Custom.h"/>
+      <FILE id="b8CEYx" name="Design.cpp" compile="1" resource="0" file="Source/DSPFilters/Design.cpp"/>
+      <FILE id="AEhMxH" name="Design.h" compile="0" resource="0" file="Source/DSPFilters/Design.h"/>
+      <FILE id="PIScA9" name="Documentation.cpp" compile="1" resource="0"
+            file="Source/DSPFilters/Documentation.cpp"/>
+      <FILE id="TQE2Qr" name="Dsp.h" compile="0" resource="0" file="Source/DSPFilters/Dsp.h"/>
+      <FILE id="MgmVDp" name="Elliptic.cpp" compile="1" resource="0" file="Source/DSPFilters/Elliptic.cpp"/>
+      <FILE id="ycghBW" name="Elliptic.h" compile="0" resource="0" file="Source/DSPFilters/Elliptic.h"/>
+      <FILE id="LnDh2u" name="Filter.cpp" compile="1" resource="0" file="Source/DSPFilters/Filter.cpp"/>
+      <FILE id="Kjqeun" name="Filter.h" compile="0" resource="0" file="Source/DSPFilters/Filter.h"/>
+      <FILE id="sBEmiI" name="Layout.h" compile="0" resource="0" file="Source/DSPFilters/Layout.h"/>
+      <FILE id="NESCNl" name="Legendre.cpp" compile="1" resource="0" file="Source/DSPFilters/Legendre.cpp"/>
+      <FILE id="VNqa55" name="Legendre.h" compile="0" resource="0" file="Source/DSPFilters/Legendre.h"/>
+      <FILE id="S8jXXx" name="MathSupplement.h" compile="0" resource="0"
+            file="Source/DSPFilters/MathSupplement.h"/>
+      <FILE id="ZvmLvY" name="Param.cpp" compile="1" resource="0" file="Source/DSPFilters/Param.cpp"/>
+      <FILE id="qdG8kq" name="Params.h" compile="0" resource="0" file="Source/DSPFilters/Params.h"/>
+      <FILE id="IX2CEP" name="PoleFilter.cpp" compile="1" resource="0" file="Source/DSPFilters/PoleFilter.cpp"/>
+      <FILE id="gqyI7P" name="PoleFilter.h" compile="0" resource="0" file="Source/DSPFilters/PoleFilter.h"/>
+      <FILE id="kTOidp" name="RBJ.cpp" compile="1" resource="0" file="Source/DSPFilters/RBJ.cpp"/>
+      <FILE id="c3iD3b" name="RBJ.h" compile="0" resource="0" file="Source/DSPFilters/RBJ.h"/>
+      <FILE id="PVbM4J" name="RootFinder.cpp" compile="1" resource="0" file="Source/DSPFilters/RootFinder.cpp"/>
+      <FILE id="DLJrhA" name="RootFinder.h" compile="0" resource="0" file="Source/DSPFilters/RootFinder.h"/>
+      <FILE id="kZDXwj" name="SmoothedFilter.h" compile="0" resource="0"
+            file="Source/DSPFilters/SmoothedFilter.h"/>
+      <FILE id="a777aH" name="State.cpp" compile="1" resource="0" file="Source/DSPFilters/State.cpp"/>
+      <FILE id="SNzE9U" name="State.h" compile="0" resource="0" file="Source/DSPFilters/State.h"/>
+      <FILE id="wRJlJA" name="Types.h" compile="0" resource="0" file="Source/DSPFilters/Types.h"/>
+      <FILE id="dwXlNo" name="Utilities.h" compile="0" resource="0" file="Source/DSPFilters/Utilities.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled" JUCE_PLUGINHOST_VST="disabled" JUCE_PLUGINHOST_AU="disabled"/>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1"/>
+    <MODULE id="juce_events" showAllCode="1"/>
+    <MODULE id="juce_graphics" showAllCode="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+</JUCERPROJECT>
